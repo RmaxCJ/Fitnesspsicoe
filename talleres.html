@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+<head>
+  <!-- Site Title-->
+  <title>Talleres</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Stylesheets-->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300italic,400,600,700,900">
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 10]>
+  <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+  <script src="js/html5shiv.min.js"></script>
+
+  <![endif]-->
+</head>
+<body>
+<!-- Preloader-->
+<style>
+
+  @keyframes mover {
+
+     0% {
+         transform: translate(100%);
+
+     }
+    /*    from
+        {
+            margin-left: 100%;
+            width: 100%
+        }
+        to
+        {
+            margin-left: 0%;
+            width: 100%;
+        }*/
+
+  }
+
+</style>
+<script>
+  window.addEventListener('scroll',function (){
+    //let animacion=document.getElementsByClassName('animado');
+    let animacion=document.getElementById('animado');
+    /*let animacion2=document.getElementById('animado2');
+    let animacion3=document.getElementById('animado3');*/
+    let posicionOBJ=animacion.getBoundingClientRect().top;
+   /* let posicionOBJ2=animacion2.getBoundingClientRect().top;
+    let posicionOBJ3=animacion3.getBoundingClientRect().top;*/
+    //console.log(window.innerHeight);
+    console.log(posicionOBJ);
+    let tamañoPantalla=window.innerHeight/1.1;
+    console.log(tamañoPantalla);
+    if (posicionOBJ<tamañoPantalla)
+    {
+      animacion.style.animation='mover 1s ease-out';
+    }
+  /*  if (posicionOBJ2<tamañoPantalla)
+    {
+      animacion2.style.animation='mover 1s ease-out';
+    }
+    if (posicionOBJ3<tamañoPantalla)
+    {
+      animacion3.style.animation='mover 1s ease-out';
+    }*/
+
+  })
+</script>
+
+
+<div class="preloader loaded">
+  <div class="preloader-body">
+    <div class="cssload-container">
+      <div class="cssload-speeding-wheel"></div>
+    </div>
+    <p>Cargando...</p>
+  </div>
+</div>
+<!-- Page-->
+<div class="page text-center">
+  <!-- Page Header-->
+  <header class="page-head">
+    <!-- RD Navbar-->
+    <div class="rd-navbar-wrap">
+      <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="90px">
+        <div class="rd-navbar-inner">
+          <!-- RD Navbar Panel-->
+          <div class="rd-navbar-panel">
+            <!-- RD Navbar Toggle-->
+            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+            <!-- RD Navbar Brand-->
+          </div>
+          <div class="rd-navbar-nav-wrap">
+            <!-- RD Navbar Nav-->
+            <ul class="rd-navbar-nav">
+              <li class="active"><a href="./">Inicio</a></li>
+              <li><a href="quees.html">¿Qué es Fitness Psicoemocional?</a></li>
+              <li><a href="quiensoy.html">¿Quién soy?</a></li>
+              <li><a href="#">Servicios Online</a>
+                <ul class="rd-navbar-dropdown">
+                  <li><a href="online.html?#sesPsic">Sesiones de Psicoterapia</a></li>
+                  <hr>
+                  <li><a href="online.html?#medGui">Sesiones de Meditación Guiada</a></li>
+                  <hr>
+                  <li><a href="online.html?#postCov">Sesiones de Terapia Post Covid</a></li>
+                  <hr>
+                  <li><a href="online.html?#medMind">Sesiones de Meditación Mindfulness</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Información</a>
+                <ul class="rd-navbar-dropdown">
+                  <li><a href="talleres.html">Talleres</a></li>
+                  <hr>
+                  <li><a href="costos.html">Costos</a></li>
+                  <hr>
+                  <li><a href="citas.html">Citas</a></li>
+                  <hr>
+                  <li><a href="contacts.html">Contacto</a></li>
+                  <!-- <li><a href="#">news</a>
+                     <ul class="rd-navbar-dropdown">
+                       <li><a href="#">fresh</a></li>
+                       <li><a href="#">archive</a></li>
+                       <li><a href="404.html">404</a></li>
+                     </ul>
+                   </li>-->
+                </ul>
+              </li>
+              <!--
+                                <li><a href="contacts.html">Servicios Online</a></li>
+              -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Page Content-->
+  <main class="page-content">
+
+    <section class="section-bottom-65 section-top-34 section-md-top-0">
+      <div class="shell shell-wide" >
+        <!--
+                    <div class="page-counter page-counter-bottom-5"><img class="img-responsive center-block" src="images/about-01.png" alt=""></div>
+        -->
+        <h2 class="text-primary">Talleres</h2>
+        <div class="range range-xs-center offset-top-0 offset-md-top-40">
+          <div class="cell-md-7">
+            <h4 style="color: #A6D5B9;">¿En que consisten?</h4>
+            <p>Los talleres son un acompañamiento grupal online, que está encaminado a que trabajes y desarrolles los temas propuestos. Son de duración variable, de periodicidad semanal (via zoom) y el horario a establecerse con los miembros del grupo.
+              <br>  Mediante los ejercicios y actividades propuestas te invito a trabajar individual y grupalmente, en un ambiente protegido y sano, con el objetivo de que al final del taller adquieras nuevas herramientas, nuevos conocimientos y una mayor consciencia de ti mism@s, para ser y estar psicoemocionalmente fit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-bottom-65 section-top-34 section-md-top-0">
+      <div class="shell shell-wide">
+        <div class="range range-xs-center offset-top-0 offset-md-top-40">
+          <div class="cell-md-7">
+            <h4 style="color: #A6D5B9;">¿Cómo agendo?</h4>
+            <p><br>
+              a) Si te interesa un taller en especial y juntas un mínimo de 5 asistentes, puedes mandarme una solicitud a mi correo o whatsapp y podemos ponernos de acuerdo en fechas, horarios y costos.
+              <br><br>
+              b) O puedes mandar un correo o whatsapp con tus datos de contacto y el taller de tu interés, para que cuando lo agende durante el año, te llegue una invitación y puedas confirmar tu asistencia. La promoción de los talleres también se hará por medio de mis redes sociales.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-bottom-65 section-top-34 section-md-top-0">
+      <div class="shell shell-wide" id="animado">
+        <div class="range range-xs-center offset-top-0 offset-md-top-40">
+          <div class="cell-md-7">
+<!--
+            <h4 style="color: #A6D5B9;">¿Qué puedo hacer para estar Psicoemocionalmente FIT?</h4>
+-->
+            <br>
+            <ul>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary"  style="background-color: #88CF81 !important; border-color: #88CF81 !important;" id="crecimiento">“Crecimiento personal”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="sanar">“Escribir para sanar”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="acuerdos">“Los 4 acuerdos”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="ahora">“El poder del ahora”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="herramientas">“La magia del orden”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="trasc">“Trascendencia”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary"  style="background-color: #88CF81 !important; border-color: #88CF81 !important;" id="princesa">“La princesa y el dragón”</button></li>
+              <br>
+              <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="padres">¿Quien cuenta cuentos a mis padres?
+              </button></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <style>
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even){background-color: #f2f2f2}
+    </style>
+
+    <div class="shell shell-wide inset-left-0 inset-right-0">
+      <hr class="divider-full">
+    </div>
+  </main>
+  <!-- Page Footer-->
+  <footer class="page-footer">
+    <div class="container"><span> Developed by</span>
+      <a style="color: #47aa7e !important;" href="https://maxanotherways.com/ES/">Maximiliano Nuñez</a>
+    </div>
+  </footer>
+</div>
+
+<!-- Java script-->
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+
+
+    $('#princesa').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller “La princesa y el dragón”\n</i>",
+        html:"Es un taller grupal diseñado para parejas que buscan su entendimiento, crecimiento y a descubrir su propio camino. En un ambiente seguro y terapéutico, les invito a hacer ejercicios vivenciales y a usar herramientas que facilitan un proceso transformador para aquellas parejas que desean crecer y ampliar el conocimiento que tienen el uno del otro, y si lo deciden, relacionarse entre si desde el amor y la consciencia.<br><br>" +
+                "Es un taller independiente de la condición/orientación sexual de las parejas.<br><br>" +
+                "<br><br>" +
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+
+    $('#sanar').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller “Escribir para sanar”\n</i>",
+        html:"Es un taller grupal en el cual te acompaño a que explores la escritura como herramienta de descarga emocional, reflexión y sanación, en un ambiente seguro y terapéutico.   <br><br>"+
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+    $('#acuerdos').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller “Los 4 acuerdos”\n</i>",
+        html:"Es un taller grupal basado en el libro del mismo nombre por Don Miguel Ruiz, en el cual además de promover los principios propuestos por él, te acompaño mediante ejercicios vivenciales  para facilitarte responder a las siguientes preguntas  relacionadas con el libro: ¿Qué principios te son fáciles de aplicar y cuáles no? ¿Qué creencias te impiden aplicar alguno o varios de los acuerdos? ¿Cómo transformar las creencias limitantes? ¿Cómo incorporar los 4 acuerdos a tu vida y tus relaciones?<br><br>"+
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+        width: '800px',
+        height:'800px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+    $('#ahora').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller “El poder del ahora”\n</i>",
+        html:"Es un taller grupal basado en el libro del mismo nombre por Eckhart Tolle, en el cual además discutir y compartir en grupo los principios propuestos por él, te acompaño mediante ejercicios vivenciales, para facilitarte responder a las siguientes preguntas  relacionadas con el libro : ¿Qué creencias te impiden vivir en el aquí y ahora? ¿Cómo transformar esas creencias limitantes? ¿Cómo vivir armoniosamente en el aquí y ahora?<br><br>"+
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+    $('#herramientas').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller “La magia del orden: Herramientas para ordenar tu casa... y tu vida”\n</i>",
+        html:"Es un taller grupal basado en el libro del mismo nombre por Marie Kondo, en el cual además de seguir los principios propuestos por ella, te acompaño mediante ejercicios vivenciales para facilitarte responder a las siguientes preguntas  relacionadas con el libro: ¿Qué actividades te son fáciles de realizar y cuáles no? ¿Qué creencias te impiden soltar? ¿Qué creencias te impiden ordenar? ¿Cómo puedes transformar esas creencias? ¿Cuál es la relación entre ordenar tu casa y ordenar tu vida?<br><br>"+
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+
+    $('#trasc').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller “Trascendencia”\n</i>",
+        html:"Es un taller grupal en el cual te acompaño en un viaje**punch  para que explores diferentes herramientas, con la finalidad de que trasciendas tus limitaciones, desbloquees tu fuerza interior, encuentres la motivación que necesitas, conectes con tus pasiones y redefinas tu relación con misión de vida. <br><br>"+
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+    $('#crecimiento').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "Taller “Mis primeros pasos en el crecimiento personal”\n</i>",
+        html:"Es un taller grupal diseñado para acompañarte a que vacíes tu cabeza de creencias limitantes, para que puedan llegar las nuevas creencias empoderantes. <br><br>" +
+                "Te acompaño a reconocer aprendizajes pasados que pudieran estarte limitando en tu crecimiento personal aquí y ahora, te los cuestiones y si así tú lo decides !los transformes¡<br><br>"+
+              "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+    $('#padres').on('click',function ()
+    {
+
+      Swal.fire({
+        title: "<i>Taller ¿Quien cuenta cuentos a mis padres?\n</i>",
+        html:"Es un taller en el que acompaño a uno o a ambos padres, a que mediante cuentos cuidadosamente seleccionados, exploren y se cuestionen su estilo de crianza, para facilitarles a responder las siguientes preguntas: ¿que sí les funciona y que no en su estilo de crianza? ¿cuales son sus fortalezas y sus debilidades como padres?. Se facilita que mediante la nueva información que adquieran de si mismos, decidan conscientemente actitudes** para mejorar su estilo de crianza. <br><br>"+
+                "Informes (  <a class=\"big\" href=\"https://api.whatsapp.com/send?text=Hola,buen día.&phone=5215522569780\"><i class=\"fa fa-whatsapp\" aria-hidden=\"true\"></i></a>  , <a class=\"big\" href=\"mailto:mariodomgestalt@gmail.com\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>  )<br><br>",
+
+        width: '800px',
+        height:'600px',
+        //confirmButtonText: "V <u>redu</u>",
+      });
+    });
+
+  });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+<head>
+    <!-- Site Title-->
+    <title>¿Qué es?</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300italic,400,600,700,900">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <![endif]-->
+
+    <!-- Animacion scroll-->
+<!--    <link rel="stylesheet" href="scroll%20animation/animate.css">
+    <link rel="stylesheet" href="scroll%20animation/style.css">
+
+    <script src="scroll%20animation/main.js"></script>
+    <script src="scroll%20animation/scrollax.min.js"></script>-->
+
+
+</head>
+<body>
+<style>
+
+   /* p,h8,i,button,table
+    {
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    @keyframes slidein
+    {
+        from
+        {
+            margin-left: 100%;
+            width: 100%
+        }
+        to
+        {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }*/
+   @keyframes mover {
+
+      /* 0% {
+           transform: translate(100%);
+
+       }*/
+   /*    from
+       {
+           margin-left: 100%;
+           width: 100%
+       }
+       to
+       {
+           margin-left: 0%;
+           width: 100%;
+       }*/
+       0% {
+           transform: translate(100%);
+
+       }
+   }
+
+</style>
+<script>
+    window.addEventListener('scroll',function (){
+        //let animacion=document.getElementsByClassName('animado');
+        /*let animacion=document.getElementById('animado');*/
+        let animacion2=document.getElementById('animado2');
+        let animacion3=document.getElementById('animado3');
+        /*let posicionOBJ=animacion.getBoundingClientRect().top;*/
+        let posicionOBJ2=animacion2.getBoundingClientRect().top;
+        let posicionOBJ3=animacion3.getBoundingClientRect().top;
+        //console.log(posicionOBJ);
+        let tamañoPantalla=window.innerHeight/1.1;
+        /*if (posicionOBJ<tamañoPantalla)
+        {
+            animacion.style.animation='mover 1s ease-out';
+        }*/
+        if (posicionOBJ2<tamañoPantalla)
+        {
+            animacion2.style.animation='mover 1s ease-out';
+        }
+        if (posicionOBJ3<tamañoPantalla)
+        {
+            animacion3.style.animation='mover 1s ease-out';
+        }
+
+    })
+</script>
+<!-- Preloader-->
+<div class="preloader loaded">
+    <div class="preloader-body">
+        <div class="cssload-container">
+            <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Cargando...</p>
+    </div>
+</div>
+<!-- Page-->
+<div class="page text-center">
+    <!-- Page Header-->
+    <header class="page-head">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+            <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="90px">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Panel-->
+                    <div class="rd-navbar-panel">
+                        <!-- RD Navbar Toggle-->
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                        <!-- RD Navbar Brand-->
+                    </div>
+                    <div class="rd-navbar-nav-wrap">
+                        <!-- RD Navbar Nav-->
+                        <ul class="rd-navbar-nav">
+                            <li class="active"><a href="./">Inicio</a></li>
+                            <li><a href="quees.html">¿Qué es Fitness Psicoemocional?</a></li>
+                            <li><a href="quiensoy.html">¿Quién soy?</a></li>
+                            <li><a href="#">Servicios Online</a>
+                                <ul class="rd-navbar-dropdown">
+                                    <li><a href="online.html?#sesPsic">Sesiones de Psicoterapia</a></li>
+                                    <hr>
+                                    <li><a href="online.html?#medGui">Sesiones de Meditación Guiada</a></li>
+                                    <hr>
+                                    <li><a href="online.html?#postCov">Sesiones de Terapia Post Covid</a></li>
+                                    <hr>
+                                    <li><a href="online.html?#medMind">Sesiones de Meditación Mindfulness</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Información</a>
+                                <ul class="rd-navbar-dropdown">
+                                    <li><a href="talleres.html">Talleres</a></li>
+                                    <hr>
+                                    <li><a href="costos.html">Costos</a></li>
+                                    <hr>
+                                    <li><a href="citas.html">Citas</a></li>
+                                    <hr>
+                                    <li><a href="contacts.html">Contacto</a></li>
+                                    <!-- <li><a href="#">news</a>
+                                       <ul class="rd-navbar-dropdown">
+                                         <li><a href="#">fresh</a></li>
+                                         <li><a href="#">archive</a></li>
+                                         <li><a href="404.html">404</a></li>
+                                       </ul>
+                                     </li>-->
+                                </ul>
+                            </li>
+                            <!--
+                                              <li><a href="contacts.html">Servicios Online</a></li>
+                            -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Page Content-->
+    <main class="page-content">
+
+        <section class="section-bottom-65 section-top-34 section-md-top-0">
+            <div class="shell shell-wide" >
+                <!--
+                            <div class="page-counter page-counter-bottom-5"><img class="img-responsive center-block" src="images/about-01.png" alt=""></div>
+                -->
+                <div class="range range-xs-center offset-top-0 offset-md-top-40">
+                    <div class="cell-md-7 " >
+                        <h2 style="color: #A6D5B9;">Costos</h2>
+                        <p >Mas allá de verlo como una simple transacción montería, te invito a que lo conviertas en una acción consciente y con una intención mas profunda. Por eso me baso en la filosofía Ubuntu, en el que dar lo mejor de uno mismo  y la generosidad entre pares, es fomentada en todas sus interacciones y acciones.
+                            <br><br>
+                            Así que pongo a tu alcance un limitado numero de becas para las personas que en su situación actual requieren mis servicios, pero no pueden aportar la totalidad del costo.
+                            <br><br>
+                            Las hay al 25% 50% 75% y 100%, puedes preguntarme vía correo o WhatsApp por disponibilidad de la beca que necesitas. Si en el momento no tengo lugar, te puedo poner en lista de espera o recomendarte a alguien de mi confianza que se adecue a tu situación presente.
+                            <br><br>
+                            Mi invitación es a que hagas un uso consciente de la solicitud de tu beca siendo Ubuntu.
+                            <br><br>
+                            A ti que tu situación actual te permite aportar la totalidad del costo, quiero que sepas que gracias a tu contribución es que alguien mas también recibe la oportunidad de sanar. En su nombre ¡Gracias por ser Ubuntu!
+                            <br><br>
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--
+        <section class="section-bottom-65 section-top-34 section-md-top-0">
+            <div class="shell shell-wide">
+                <div class="range range-xs-center offset-top-0 offset-md-top-40">
+                    <div class="cell-md-7">
+                        <h4 style="color: #A6D5B9;">¿Qué puedo hacer para estar Psicoemocionalmente FIT?</h4>
+                        <br>
+                        <ul>
+                            <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" id="sesPsic">Sesiones psicoterapéuticas</button></li>
+                            <br>
+                            <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-danger" id="meditacion">Practicar Meditación</button></li>
+                            <br>
+                            <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-info" id="mindfulness">Practicar Mindfulness</button></li>
+                            <br>
+                            <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-warning" id="psicoalimentarme">Psicoalimentarme sanamente</button></li>
+                            <br>
+                            <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-success" id="otras">Otras actividades</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+
+
+
+
+        <style>
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 100%;
+                border: 1px solid #ddd;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even){background-color: #f2f2f2}
+        </style>
+
+        <section class="section-bottom-80 section-title section-title-right" data-title="dogs for sale">
+            <div class="shell shell-wide section-65 section-lg-bottom-122 bg-mocos">
+
+                <!--<hr class="divider offset-lg-top-30">-->
+                <div class="range text-md-left offset-top-54">
+                    <div class="cell-md-preffix-1 cell-xl-9 cell-md-10">
+                        <div style="overflow-x:auto;" >
+                            <table style="font-size: 14px;" id="animado2">
+
+                                <tr>
+                                    <td style="color: #93092a;"><strong>Sesiones de psicoterapia online</strong>
+                                    </td>
+                                    <td style="color: #000000;">Las sesiones son vía Zoom, videollamada o algún otro medio de video conferencia. Dependiendo del caso, también podría ser mediante llamada telefónica.
+                                    </td>
+                                    <td style="color: #47aa7e;"><strong>Aportación consciente $800 MXN por sesión</strong>
+                                    </td>
+                                    <td><a style="color: #3E5C9A; font-size: 20px;" href="https://calendly.com/mariodomgestalt/pm" target="_blank"><u><i class="fa fa-calendar" aria-hidden="true"></i></u></a></td>
+
+                                </tr>
+                                <tr>
+                                    <td style="color: #93092a;"><strong>Sesiones de terapia post Covid</strong>
+
+                                    </td>
+                                    <td style="color: #000000;">Las sesiones son vía Zoom, videollamada o algún otro medio de video conferencia.
+                                    </td>
+                                    <td style="color: #47aa7e;"><strong>Aportación consciente $800 MXN por sesión.</strong>
+                                    </td>
+                                    <td><a style="color: #3E5C9A; font-size: 20px;" href="https://calendly.com/mariodomgestalt/sesion-de-tpc" target="_blank"><u><i class="fa fa-calendar" aria-hidden="true"></i></u></a></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #93092a;"><strong>Sesiones de mindfulness</strong>
+                                    </td>
+                                    <td style="color: #000000;">Las sesiones son vía Zoom, videollamada o algún otro medio de video conferencia. Dependiendo del caso, también podría ser mediante llamada telefónica.
+
+                                    </td>
+                                    <td style="color: #47aa7e;"><strong>Aportación consciente $400 MXN por sesión.</strong>
+
+                                    </td>
+                                    <td><a style="color: #3E5C9A; font-size: 20px;" href="https://calendly.com/mariodomgestalt/sesiones-de-mindfulness" target="_blank"><u><i class="fa fa-calendar" aria-hidden="true"></i></u></a></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #93092a;"><strong>Sesiones de meditación guiada</strong>
+
+                                    </td>
+                                    <td style="color: #000000;">Las sesiones son vía Zoom, videollamada o algún otro medio de video conferencia. Dependiendo del caso, también podría ser mediante llamada telefónica.
+                                    </td>
+                                    <td style="color: #47aa7e;"><strong>Aportación consciente $400 MXN por sesión.</strong>
+
+                                    </td>
+                                    <td><a style="color: #3E5C9A; font-size: 20px;" href="https://calendly.com/mariodomgestalt/sesion-meditacion" target="_blank"><u><i class="fa fa-calendar" aria-hidden="true"></i></u></a></td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #93092a;"><strong>Talleres online</strong></td>
+                                    <td style="color: #000000;">Las sesiones son vía Zoom, y seguimiento diario mediante un grupo de WhatsApp.</td>
+                                    <td style="color: #47aa7e;"><strong>La aportación consciente varía con cada taller.</strong></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+
+                        </div>
+                        <br>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-bottom-65 section-top-34 section-md-top-0">
+            <div class="shell shell-wide" id="animado3">
+                <!--
+                            <div class="page-counter page-counter-bottom-5"><img class="img-responsive center-block" src="images/about-01.png" alt=""></div>
+                -->
+                <div class="range range-xs-center offset-top-0 offset-md-top-40" >
+                    <div class="cell-md-7 ftco-animate">
+                        <h2 style="color: #A6D5B9;">Garantía de satisfacción y compromiso</h2>
+                        <p>
+                            Todos mis servicios cuentan con la garantía de que si no estas satisfecho con mi trato, se te regresará tu aportación con las siguientes pautas:
+                        </p>
+                        <br><br>
+                        <strong>Sesiones de psicoterapia online:</strong> La devolución aplica solo durante las 4 primeras sesiones y tienes que pedir explícitamente la devolución de tu aportación durante el cierre de la 4ta sesión.
+                        <br><br>
+                        <strong>
+                            Sesiones de terapia post Covid:
+                        </strong>
+                        La devolución aplica solo para las 3 primeras sesiones y tienes que pedir explícitamente la devolución de tu aportación durante el cierre de la 3ra sesión.
+                        <br><br>
+
+                        <strong>
+                            Sesiones de meditación y mindfulness:
+
+                        </strong>
+                        Tienes que pedir explícitamente la devolución de tu aportación al cierre de la sesión.
+                        <br><br>
+
+                        <strong>
+                            Talleres:
+
+                        </strong>
+                        Tienes que pedir explícitamente la devolución de tu aportación en la sesión indicada durante el taller.
+                        <br><br>
+                        <h4 class="text-primary">
+                            En todos lo casos se te pedirá un mensaje de exposición de los motivos para solicitar la devolución y llenar un cuestionario.
+                        </h4>
+
+                        <br><br>
+                        Aportación consciente <strong>“Da lo mejor de ti y también recibe lo mejor de alguien más”</strong>.
+                        <br><br>
+
+                        Aportar viene del latín  <strong>«apportare »</strong>, formado con el prefijo -ad (hacia) y el verbo portare (llevar, ver: portar). Significa llevar algo para contribuir al bien común
+                        <br><br>
+
+                        Consciente viene del latín <strong>«conscĭens»</strong> o <strong>«conscĭentis»</strong> participio activo de «conscīre» que significa saber perfectamente
+                        <br><br>
+
+                        Ubuntu término zulú, procedente de Sur África: <strong>“Ubuntu”</strong>. Es una regla ética enfocada en la lealtad de las personas y las relaciones entre ellas. Tiene varias traducciones, como  <strong>“Humanidad hacia otros”</strong>,  <strong>“Si todos ganan, tú ganas”</strong>,  <strong>“Soy porque nosotros somos”</strong>.
+                        <br><br>
+
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="shell shell-wide inset-left-0 inset-right-0">
+            <hr class="divider-full">
+        </div>
+    </main>
+    <!-- Page Footer-->
+    <footer class="page-footer">
+        <div class="container"><span> Developed by</span>
+            <a style="color: #47aa7e !important;" href="https://maxanotherways.com/ES/">Maximiliano Nuñez</a>
+        </div>
+    </footer>
+</div>
+
+<!-- Java script-->
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+
+
+        $('#sesPsic').on('click',function ()
+        {
+
+            Swal.fire({
+                title: "<i>Asistir a sesiones psicoterapéuticas\n</i>",
+                html: "Un psicoterapeuta, pone al servicio del paciente todos sus sentidos , lo que escucha, lo que ve y lo que siente, reconociendo todo aquello que pueda facilitarle al paciente un darse cuenta de sus sentimientos, pensamientos y conductas. Es mediante esta toma de consciencia de si mismo que al paciente se le abre la oportunidad de explorar, trabajar y decidir, aquí y ahora: “que sí quiero en mi vida, que no”, “que sí me funciona y que ya no”,  “que solo me funciona en ciertas situaciones o con ciertas personas”, aumentando así su desarrollo personal, su bienestar y mejorando su relación consigo mismo y con los demás. \n",
+                width: '800px',
+                height:'600px',
+                //confirmButtonText: "V <u>redu</u>",
+            });
+        });
+
+        $('#meditacion').on('click',function ()
+        {
+
+            Swal.fire({
+                title: "<i>Practicar meditación\n</i>",
+                html:"La meditación es un practica destinado a la mente y al corazón, para alcanzar claridad mental y un estado emocional sereno y estable. Implica un esfuerzo interno para autorregular la mente de alguna forma. Algunos tipos de meditación son budista, zen, trascendental y vipassana.<br><br>" +
+                    "La meditación nace en un contexto espiritual, y se abordan cuestiones como ¿Quién soy? y el sentido de la vida, y aunque esta ha sido un componente de numerosas religiones y creencias, en si misma su práctica no constituye una religión.<br><br>" +
+                    "Los beneficios de practicar meditación pueden incluir buena energía, ofrecer una esencia amorosa y bondadosa al mundo, conexión con tu esencia, calma espiritual, relajación, conectar con tu interior, aprender a vivir en el presente, soltar pensamientos y tranquilidad.<br><br>" +
+                    "¡Es una excelente práctica en tu camino a ser y estar psicoemocionalmente FIT!\n",
+                width: '800px',
+                height:'600px',
+                //confirmButtonText: "V <u>redu</u>",
+            });
+        });
+        $('#mindfulness').on('click',function ()
+        {
+
+            Swal.fire({
+                title: "<i>Practicar Mindfulness\n</i>",
+                html:"El mindfulness es una práctica de meditación que ha sido difundida principalmente para que las personas aprendan a ser conscientes de lo que ocurre en su momento presente, sin juicios. <br><br>" +
+                    "Es una práctica personal que no está ligada a realizarse en un templo o a la naturaleza, tampoco es requisito realizarla en un lugar silencioso y sin distractores. Puede realizarse en el jardín, en el bosque, en soledad, inmóvil y a la vez también se puede realizar durante otra actividad, como caminar, hacer ejercicio, hasta lavando los trastes, o mientras se viaja en metro. No necesariamente es relajarse, ni sentirse cómodo, tampoco es poner la mente en blanco. El mindfulness no tiene que ver con una creencia religiosa, ni con rendir culto o adoración a un ídolo o persona.<br><br>" +
+                    "Es una práctica que permite contemplar, estar en un estado de alerta y de enfoque. Es todo lo contrario a evitar, huir, ignorar y se acerca más a prestar atención, reconocer sin discriminar lo agradable de lo desagradable, y se hace la invitación a convivir con ambas sensaciones y adentrarse en ellas de manera incondicional y receptiva. <br><br>" +
+                    "Mindfulness no es una meta, es la búsqueda de liberarse de la rumiación mental y fluir con la vida, es reconocerse a si mismo como se es en ese momento, viviendo plenamente la experiencia del momento presente y aunque su objetivo no es el de relajarse, esto sí puede llegar a ser una consecuencia de practicarla.<br><br>" +
+                    "¡Es una excelente herramienta en tu camino a ser y estar psicoemocionalmente FIT!<br><br>",
+                width: '800px',
+                height:'800px',
+                //confirmButtonText: "V <u>redu</u>",
+            });
+        });
+        $('#psicoalimentarme').on('click',function ()
+        {
+
+            Swal.fire({
+                title: "<i>Psicoalimentarme sanamente\n</i>",
+                html:"Es nutrir nuestros sentidos y percepciones con lo necesario para enriquecer, favorecer y conservar nuestra salud mental y emocional. Involucra que prestemos atención y decidamos conscientemente con que alimentamos nuestros sentidos.<br><br>" +
+                    "¿Qué música escuchas? ¿Qué frases tienen esas canciones? ¿Qué libros lees? ¿Qué ves en televisión? ¿A qué y a quienes sigues en redes sociales? ¿Cómo tratas a tu cuerpo, lo apapachas o lo maltratas? ¿Qué platicas tienes con los demás? ¿Cómo te hablas a ti mismo? ¿Quiénes conforman tu circulo cercano? ¿Cuáles son tus pasatiempos?<br><br>" +
+                    "Te has dado cuenta de si con lo que te psicoalimentas ¿te enriquece y libera? o ¿te encierra y encoge? ¿te conecta o te evade? ¿te nutre o te malnutre?<br><br>" +
+                    "Al igual que alimentarse sanamente y consumir alimentos nutritivos y balanceados es importante para nuestro cuerpo físico, para favorecer el sentirnos bien y prevenir enfermedades, lo mismo aplica para nuestros sentidos y percepciones.<br><br>" +
+                    "¡Psicoalimentarte sanamente promueve que te sientas y estés psicoemocionalmente FIT! <br><br>",
+                width: '800px',
+                height:'600px',
+                //confirmButtonText: "V <u>redu</u>",
+            });
+        });
+        $('#otras').on('click',function ()
+        {
+
+            Swal.fire({
+                title: "<i>Otras actividades que pueden fomentar el fitness psicoemocional\n</i>",
+                html:"<ul><li>Danzaterapia</li><li>Arteterapia</li><li>Musicoterapia</li><li>ZhiNeng QiGong\n</li><li>Tai chi\n</li><li>Yoga</li></ul>",
+                width: '800px',
+                height:'600px',
+                //confirmButtonText: "V <u>redu</u>",
+            });
+        });
+
+    });
+
+</script>
+</body>
+</html>

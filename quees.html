@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>¿Qué es?</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300italic,400,600,700,900">
+    <link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+
+    <![endif]-->
+  </head>
+  <body>
+  <style>
+
+    @keyframes mover {
+
+      0% {
+        transform: translate(100%);
+
+      }
+      /*    from
+          {
+              margin-left: 100%;
+              width: 100%
+          }
+          to
+          {
+              margin-left: 0%;
+              width: 100%;
+          }*/
+
+    }
+
+  </style>
+  <script>
+    window.addEventListener('scroll',function (){
+      //let animacion=document.getElementsByClassName('animado');
+      let animacion=document.getElementById('animado');
+      let animacion2=document.getElementById('animado2');
+      let animacion3=document.getElementById('animado3');
+      let posicionOBJ=animacion.getBoundingClientRect().top;
+       let posicionOBJ2=animacion2.getBoundingClientRect().top;
+       let posicionOBJ3=animacion3.getBoundingClientRect().top;
+      //console.log(window.innerHeight);
+      console.log(posicionOBJ);
+      let tamañoPantalla=window.innerHeight/1.1;
+      console.log(tamañoPantalla);
+      if (posicionOBJ<tamañoPantalla)
+      {
+        animacion.style.animation='mover 1s ease-out';
+      }
+        if (posicionOBJ2<tamañoPantalla)
+        {
+          animacion2.style.animation='mover 1s ease-out';
+        }
+        if (posicionOBJ3<tamañoPantalla)
+        {
+          animacion3.style.animation='mover 1s ease-out';
+        }
+
+    })
+  </script>
+    <!-- Preloader-->
+    <div class="preloader loaded">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Cargando...</p>
+      </div>
+    </div>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <header class="page-head">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="90px">
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+              </div>
+              <div class="rd-navbar-nav-wrap">
+                <!-- RD Navbar Nav-->
+                <ul class="rd-navbar-nav">
+                  <li class="active"><a href="./">Inicio</a></li>
+                  <li><a href="quees.html">¿Qué es Fitness Psicoemocional?</a></li>
+                  <li><a href="quiensoy.html">¿Quién soy?</a></li>
+                  <li><a href="#">Servicios Online</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="online.html?#sesPsic">Sesiones de Psicoterapia</a></li>
+                      <hr>
+                      <li><a href="online.html?#medGui">Sesiones de Meditación Guiada</a></li>
+                      <hr>
+                      <li><a href="online.html?#postCov">Sesiones de Terapia Post Covid</a></li>
+                      <hr>
+                      <li><a href="online.html?#medMind">Sesiones de Meditación Mindfulness</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Información</a>
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="talleres.html">Talleres</a></li>
+                      <hr>
+                      <li><a href="costos.html">Costos</a></li>
+                      <hr>
+                      <li><a href="citas.html">Citas</a></li>
+                      <hr>
+                      <li><a href="contacts.html">Contacto</a></li>
+                      <!-- <li><a href="#">news</a>
+                         <ul class="rd-navbar-dropdown">
+                           <li><a href="#">fresh</a></li>
+                           <li><a href="#">archive</a></li>
+                           <li><a href="404.html">404</a></li>
+                         </ul>
+                       </li>-->
+                    </ul>
+                  </li>
+                  <!--
+                                    <li><a href="contacts.html">Servicios Online</a></li>
+                  -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Page Content-->
+      <main class="page-content">
+
+        <section class="section-bottom-65 section-top-34 section-md-top-0">
+          <div class="shell shell-wide">
+<!--
+            <div class="page-counter page-counter-bottom-5"><img class="img-responsive center-block" src="images/about-01.png" alt=""></div>
+-->
+            <div class="range range-xs-center offset-top-0 offset-md-top-40">
+              <div class="cell-md-7">
+                <h2 style="color: #A6D5B9;">¿Qué es Fitness psicoemocional?</h2>
+                <p>Es el realizar actividades que fomenten mejorar y mantener tu salud y bienestar mental y emocional, aumentando tu habilidad de encontrarte en optimas condiciones para vivir tu vida.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-bottom-65 section-top-34 section-md-top-0">
+          <div class="shell shell-wide">
+            <div class="range range-xs-center offset-top-0 offset-md-top-40">
+              <div class="cell-md-7">
+                <h2 style="color: #A6D5B9;">Ser y estar psicoemocionalmente FIT</h2>
+                <p>
+                  Es accionar en lugar de reaccionar, es vivir en consciencia, en paz, en coherencia con lo que dices, piensas, haces y sientes, es decir, viviendo en congruencia con los pilares de la honestidad, respeto, responsabilidad y amor, desarrollando un estado óptimo de bienestar mental y emocional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <section class="section-title section-title-left" data-title="welcome">
+          <div class="shell shell-wide section-92 section-lg-bottom-148 bg-img-02" id="animado">
+            <h2>¿Para que?</h2>
+            <hr class="divider">
+
+            <ul>
+              <li>
+                  <h4 style="text-transform: initial !important;">
+                    En casa o en la escuela es poco probable que alguien nos haya enseñado como cuestionar y modificar nuestras creencias.
+                    <br> ¿Te repites frecuentemente alguna de estas frases o similares?
+                    <h2 style="color: #983A42 !important; font-size: 17px !important;"><strong>“me es imposible dejar de ser como soy” <br> “debo evitar mostrar lo que siento”
+                      <br> “seria feliz si no fuera por los demás”<br> “me es imposible dejar de pensar en lo que ya paso”<br> “hago lo que los demás quieren aunque eso no me guste”<br> “luego lo hago”<br> “no merezco”<br> “no soy lo suficientemente buen@”<br> “por mi culpa”
+                      <br></strong></h2>
+                  </h4>
+              </li>
+              <br>
+              <li>
+                    <h4  style="text-transform: initial !important;">
+                      Estas frases en muchas ocasiones las tenemos en nuestra mente sin ser conscientes de que pueden llegar a ser limitantes y dañinas para nuestro bienestar.
+                      También es poco probable que alguien nos enseñe a darle espacio adecuadamente a nuestras emociones, sobre todo a las desagradables, como el miedo, el enojo, el disgusto y la tristeza. Prestarle atención a la enseñanza que tienen para nosotros y decidir conscientemente que hacer; y en lugar de reaccionar (actuar por impulso), poder aceptarlas, vivirlas asertivamente, integrar su mensaje, para entonces poder soltarlas y seguir con nuestra vida.
+
+                    </h4>
+              </li>
+              <br>
+              <li>
+                  <h4  style="text-transform: initial !important;">
+                    Contar con actividades y espacios donde se puedan ir desarrollando y ejercitando la consciencia, el autoestima, la inteligencia emocional y el amor propio, es importante y necesario para vivir una vida mas fluida, armónica, conectada y sana, para ser y estar psicoemocionalmente FIT
+
+                  </h4>
+              </li>
+            </ul>
+            </div>
+        </section>
+
+        <section class="section-bottom-65 section-top-34 section-md-top-0">
+          <div class="shell shell-wide" id="animado2">
+            <div class="range range-xs-center offset-top-0 offset-md-top-40">
+              <div class="cell-md-7">
+                <h2 style="color: #A6D5B9;">¿Qué puedo hacer para estar Psicoemocionalmente FIT?</h2>
+                <br>
+                <ul>
+                  <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="sesPsic">Sesiones psicoterapéuticas</button></li>
+                  <br>
+                  <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="meditacion">Practicar Meditación</button></li>
+                  <br>
+                  <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary"  style="background-color: #88CF81 !important; border-color: #88CF81 !important;" id="mindfulness">Practicar Mindfulness</button></li>
+                  <br>
+                  <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="psicoalimentarme">Psicoalimentarme sanamente</button></li>
+                  <br>
+                  <li style="color: black ;"><i class="fa fa-check-square" aria-hidden="true"></i>  &nbsp; <button class="btn btn-primary" style="background-color: #88CF81 !important; border-color: #88CF81 !important;"  id="otras">Otras actividades</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <style>
+          table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+          }
+
+          th, td {
+            text-align: left;
+            padding: 8px;
+          }
+
+          tr:nth-child(even){background-color: #f2f2f2}
+        </style>
+
+        <section class="section-bottom-80 section-title section-title-right" data-title="dogs for sale">
+          <div class="shell shell-wide section-65 section-lg-bottom-122 bg-mocos" id="animado3">
+            <h2 class="text-primary">¿Quienes pueden practicar fitness psicoemocional?</h2>
+            <h5 >Cualquier persona que decida ejercitar en:</h5>
+            <hr class="divider offset-lg-top-30">
+            <div class="range text-md-left offset-top-54">
+              <div class="cell-md-preffix-1 cell-xl-9 cell-md-10">
+                <div style="overflow-x:auto;">
+                <table style="font-size: 14px;">
+
+                  <tr>
+                    <td>REDUCIR EL ESTRÉS Y ANSIEDAD
+                    </td>
+                    <td>SOLTAR CULPAS
+                    </td>
+                    <td>LIBERARSE DE JUICIOS
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>AUMENTAR SU CONFIANZA
+                    </td>
+                    <td>AUMENTAR SU AUTOESTIMA
+                    </td>
+                    <td>MEJORAR EL MANEJO DE SUS EMOCIONES
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>ADQUIRIR HERRAMIENTAS PARA AFRONTAR CONFLICTOS Y ADVERSIDADES ASERTIVAMENTE
+                    </td>
+                    <td>APRENDER A TOMAR MEJORES DECISIONES
+                    </td>
+                    <td>MEJORAR LA MANERA DE RELACIONARSE CONSIGO MISMA Y LOS DEMÁS
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>PROMOVER SU CRECIMIENTO PERSONAL
+                    </td>
+                    <td>AUMENTAR SU CLARIDAD MENTAL
+                    </td>
+                    <td>APRENDER A TOMAR DECISIONES QUE CONTRIBUYAN A UNA VIDA MAS SANA
+                    </td>
+
+                  </tr>
+                </table>
+
+                </div>
+                <br>
+                <h6><u>En resumen, todo aquel que busque ser y estar psicoemocionalmente FIT para sacarle el máximo provecho a su vida.
+                </u></h6>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="shell shell-wide inset-left-0 inset-right-0">
+          <hr class="divider-full">
+        </div>
+      </main>
+      <!-- Page Footer-->
+      <footer class="page-footer">
+        <div class="container"><span> Developed by</span>
+          <a style="color: #47aa7e !important;" href="https://maxanotherways.com/ES/">Maximiliano Nuñez</a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Java script-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function()
+      {
+
+
+        $('#sesPsic').on('click',function ()
+        {
+
+          Swal.fire({
+            title: "<i>Asistir a sesiones psicoterapéuticas\n</i>",
+            html: "Un psicoterapeuta, pone al servicio del paciente todos sus sentidos , lo que escucha, lo que ve y lo que siente, reconociendo todo aquello que pueda facilitarle al paciente un darse cuenta de sus sentimientos, pensamientos y conductas. Es mediante esta toma de consciencia de si mismo que al paciente se le abre la oportunidad de explorar, trabajar y decidir, aquí y ahora: “que sí quiero en mi vida, que no”, “que sí me funciona y que ya no”,  “que solo me funciona en ciertas situaciones o con ciertas personas”, aumentando así su desarrollo personal, su bienestar y mejorando su relación consigo mismo y con los demás. \n",
+            width: '800px',
+            height:'600px',
+            //confirmButtonText: "V <u>redu</u>",
+          });
+        });
+
+        $('#meditacion').on('click',function ()
+        {
+
+          Swal.fire({
+            title: "<i>Practicar meditación\n</i>",
+            html:"La meditación es un practica destinado a la mente y al corazón, para alcanzar claridad mental y un estado emocional sereno y estable. Implica un esfuerzo interno para autorregular la mente de alguna forma. Algunos tipos de meditación son budista, zen, trascendental y vipassana.<br><br>" +
+                    "La meditación nace en un contexto espiritual, y se abordan cuestiones como ¿Quién soy? y el sentido de la vida, y aunque esta ha sido un componente de numerosas religiones y creencias, en si misma su práctica no constituye una religión.<br><br>" +
+                    "Los beneficios de practicar meditación pueden incluir buena energía, ofrecer una esencia amorosa y bondadosa al mundo, conexión con tu esencia, calma espiritual, relajación, conectar con tu interior, aprender a vivir en el presente, soltar pensamientos y tranquilidad.<br><br>" +
+                    "¡Es una excelente práctica en tu camino a ser y estar psicoemocionalmente FIT!\n",
+            width: '800px',
+            height:'600px',
+            //confirmButtonText: "V <u>redu</u>",
+          });
+        });
+        $('#mindfulness').on('click',function ()
+        {
+
+          Swal.fire({
+            title: "<i>Practicar Mindfulness\n</i>",
+            html:"El mindfulness es una práctica de meditación que ha sido difundida principalmente para que las personas aprendan a ser conscientes de lo que ocurre en su momento presente, sin juicios. <br><br>" +
+                    "Es una práctica personal que no está ligada a realizarse en un templo o a la naturaleza, tampoco es requisito realizarla en un lugar silencioso y sin distractores. Puede realizarse en el jardín, en el bosque, en soledad, inmóvil y a la vez también se puede realizar durante otra actividad, como caminar, hacer ejercicio, hasta lavando los trastes, o mientras se viaja en metro. No necesariamente es relajarse, ni sentirse cómodo, tampoco es poner la mente en blanco. El mindfulness no tiene que ver con una creencia religiosa, ni con rendir culto o adoración a un ídolo o persona.<br><br>" +
+                    "Es una práctica que permite contemplar, estar en un estado de alerta y de enfoque. Es todo lo contrario a evitar, huir, ignorar y se acerca más a prestar atención, reconocer sin discriminar lo agradable de lo desagradable, y se hace la invitación a convivir con ambas sensaciones y adentrarse en ellas de manera incondicional y receptiva. <br><br>" +
+                    "Mindfulness no es una meta, es la búsqueda de liberarse de la rumiación mental y fluir con la vida, es reconocerse a si mismo como se es en ese momento, viviendo plenamente la experiencia del momento presente y aunque su objetivo no es el de relajarse, esto sí puede llegar a ser una consecuencia de practicarla.<br><br>" +
+                    "¡Es una excelente herramienta en tu camino a ser y estar psicoemocionalmente FIT!<br><br>",
+            width: '800px',
+            height:'800px',
+            //confirmButtonText: "V <u>redu</u>",
+          });
+        });
+        $('#psicoalimentarme').on('click',function ()
+        {
+
+          Swal.fire({
+            title: "<i>Psicoalimentarme sanamente\n</i>",
+            html:"Es nutrir nuestros sentidos y percepciones con lo necesario para enriquecer, favorecer y conservar nuestra salud mental y emocional. Involucra que prestemos atención y decidamos conscientemente con que alimentamos nuestros sentidos.<br><br>" +
+                    "¿Qué música escuchas? ¿Qué frases tienen esas canciones? ¿Qué libros lees? ¿Qué ves en televisión? ¿A qué y a quienes sigues en redes sociales? ¿Cómo tratas a tu cuerpo, lo apapachas o lo maltratas? ¿Qué platicas tienes con los demás? ¿Cómo te hablas a ti mismo? ¿Quiénes conforman tu circulo cercano? ¿Cuáles son tus pasatiempos?<br><br>" +
+                    "Te has dado cuenta de si con lo que te psicoalimentas ¿te enriquece y libera? o ¿te encierra y encoge? ¿te conecta o te evade? ¿te nutre o te malnutre?<br><br>" +
+                    "Al igual que alimentarse sanamente y consumir alimentos nutritivos y balanceados es importante para nuestro cuerpo físico, para favorecer el sentirnos bien y prevenir enfermedades, lo mismo aplica para nuestros sentidos y percepciones.<br><br>" +
+                    "¡Psicoalimentarte sanamente promueve que te sientas y estés psicoemocionalmente FIT! <br><br>",
+            width: '800px',
+            height:'600px',
+            //confirmButtonText: "V <u>redu</u>",
+          });
+        });
+        $('#otras').on('click',function ()
+        {
+
+          Swal.fire({
+            title: "<i>Otras actividades que pueden fomentar el fitness psicoemocional\n</i>",
+            html:"<ul><li>Danzaterapia</li><li>Arteterapia</li><li>Musicoterapia</li><li>ZhiNeng QiGong\n</li><li>Tai chi\n</li><li>Yoga</li></ul>",
+            width: '800px',
+            height:'600px',
+            //confirmButtonText: "V <u>redu</u>",
+          });
+        });
+
+      });
+
+    </script>
+  </body>
+</html>
